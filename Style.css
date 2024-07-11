@@ -68,7 +68,7 @@ body{
     color: rgb(2, 88, 35);
     font-size: 3rem;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2.75) {
+@media screen and (max-width: 320px) {
     .container .game{
         display: flex;
         margin: 1rem 10%;
