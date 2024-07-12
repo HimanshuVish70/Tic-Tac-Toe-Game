@@ -88,4 +88,101 @@ body{
         cursor: pointer;
         font-size: 2rem;
     }
+    .msg-container{
+        height: 3.5rem;
+    }
+    .msg-container p{
+        font-size: 2.5rem;
+        color: goldenrod;
+    }
+    .msg-container button{
+        padding: 0.5rem;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        border: 0;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 667px){
+    .container{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .container .game{
+        display: flex;
+        margin: 4rem;
+        justify-content: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        padding: 0rem 20vw;
+    }
+    .container .game button{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 20px;
+        border: 0px none;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .container{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .container .game{
+        display: flex;
+        margin: 5rem;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .msg-container{
+        height: 5rem;
+    }
+    .msg-container p{
+        font-size: 3.5rem;
+        font-weight: 545;
+        color: goldenrod;
+    }
+    .msg-container button{
+        padding: 1.5rem;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        border: 0;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .container{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .container .game{
+        display: flex;
+        margin: 3rem 10rem;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .msg-container{
+        height: 5rem;
+    }
+    .msg-container p{
+        font-size: 3.5rem;
+        color: goldenrod;
+    }
+    .msg-container button{
+        padding: 1.5rem;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        border: 0;
+        cursor: pointer;
+        border-radius: 10px;
+    }
 }
