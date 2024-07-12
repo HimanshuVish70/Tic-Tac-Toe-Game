@@ -68,22 +68,24 @@ body{
     color: rgb(2, 88, 35);
     font-size: 3rem;
 }
-@media screen and (min-device-width: 320px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
-    .container .game{
-        display: flex;
-        margin: 1rem 10%;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-    }
+@media screen and (min-width: 375px){
     .container{
         text-align: center;
         margin-top: 5rem;
     }
+    .container .game{
+        display: flex;
+        margin: 4rem;
+        justify-content: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
     .container .game button{
         width: 4rem;
         height: 4rem;
+        border-radius: 20px;
+        border: 0px none;
+        cursor: pointer;
+        font-size: 2rem;
     }
 }
